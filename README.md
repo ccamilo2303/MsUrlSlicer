@@ -1,7 +1,8 @@
+Este es un proyecto desarrollado con java Spring boot, se recomienda usar sobre netbeans
 Para ejecutar el proyecto se debe:
 1) Decargar las dependencias con MAVEN
 2) En el archivo application.yml ajustar las credenciales y el nombre de las base de datos, se usa una db postgres
-3) ejecutar el siguiente script:
+3) ejecutar el siguiente script en base de datos:
 
 create table url_slicer(
 	id SERIAL primary key,
